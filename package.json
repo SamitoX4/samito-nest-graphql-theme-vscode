@@ -1,0 +1,27 @@
+{
+  "name": "samito-nest-graphql-theme-vscode",
+  "displayName": "samito-nest-graphql-theme-vscode",
+  "description": "samito-nest-graphql-theme-vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "samito-nest-graphql-theme-vscode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/samito-nest-graphql-theme-vscode-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/nestjs-graphql-icon.png",
+  "repository": {
+    "url": "https://github.com/SamitoX4/samito-nest-theme-vscode.git",
+    "type": "git"
+  },
+  "publisher": "samito-themes"
+}
